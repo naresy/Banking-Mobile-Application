@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/back"
+    android:layout_height="match_parent"
+    tools:context=".export_value">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/click"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Transaction Complete"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_done" />
+
+        <ImageView
+            android:id="@+id/pdf"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="24sp"
+            android:src="@drawable/ic_pdf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:text="Reference Code"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/refernece"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:text="Date/Time"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/date_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:text="Channel"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:text="Online"
+                android:textAlignment="textEnd"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:text="Service Name"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:text="Connect Ips"
+                android:textAlignment="textEnd"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:text="Amount"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="24sp"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:text="To Account"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24sp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:padding="8sp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/color_primary">
+
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="24sp"
+            android:background="@color/color_primary"
+            android:padding="10sp"
+            android:text="Done"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
