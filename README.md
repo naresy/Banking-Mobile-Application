@@ -1,29 +1,4 @@
-<title>Banking Application - Android</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-      background-color: #f8f9fa;
-      color: #333;
-    }
-    h1, h2 {
-      color: #004085;
-    }
-    code {
-      background-color: #e2e6ea;
-      padding: 2px 4px;
-      border-radius: 4px;
-    }
-    ul {
-      margin-top: 0;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-  </style>
-</head>
-<body>
+
 
   <h1>📱 Android Banking Application</h1>
 
