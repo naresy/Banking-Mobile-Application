@@ -1,9 +1,8 @@
 
+<h1>📱 Android Banking Application</h1>
 
-  <h1>📱 Android Banking Application</h1>
-
-  <div class="section">
-    <p>This is a lightweight, secure Android Banking App built using Java. The app includes features like user registration, login with fingerprint support, account management, value export, and user verification through scanned input.</p>
+<div class="section">
+   <p>This is a lightweight, secure Android Banking App built using Java. The app includes features like user registration, login with fingerprint support, account management, value export, and user verification through scanned input.</p>
   </div>
 
   <div class="section">
