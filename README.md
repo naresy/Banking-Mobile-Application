@@ -1,5 +1,4 @@
-
-  <title>Banking Application - Android</title>
+<title>Banking Application - Android</title>
   <style>
     body {
       font-family: Arial, sans-serif;
